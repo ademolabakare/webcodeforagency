@@ -1,0 +1,730 @@
+body {
+    font-family: "Old Standard TT", Helvetica, sans-serif;
+  }
+
+  
+  .panels{
+      margin-top:8vh;
+      position:relative;
+      height:70vh;
+      min-height:50vh;
+      width:100%;
+      z-index:1000;
+  }
+  #a{
+      background-color:rgb(199, 198, 240);
+      background-size: cover;
+      overflow: hidden;
+      position:fixed;
+      top:0;
+      left:0;
+      z-index:-99;
+  
+     
+  }
+  #b{
+      margin-top:70vh;
+      background:white;
+      height:max-content;
+  }
+  
+
+
+
+ 
+  .mybutton{
+    height:50px;
+    width:150px;
+    background-color: blue;
+    color:white;
+    border-radius: 10px;
+    border-style:none;
+    margin-right:10px;
+    margin-left:0;
+  }
+  .mybutton2{
+    height:80px;
+    width:250px;
+    border-radius:35px;
+    background-color:white;
+    color:blue;
+    font-size:20px;
+    border-style:none;
+
+    }
+    #main-x{
+        text-align: center;
+        margin:0 auto;
+        margin-top:10%;
+        font-size:40px;
+        font-weight:bold;
+        
+    }
+    .txt{
+        color:blue;
+        font-size: 20px;;
+    }
+
+.sect-title{
+    font-size:25px;
+    color:rgb(191, 191, 240);
+    padding-top:40px;
+}
+.sect-main{
+ font-size:25px;
+ font-weight:bold;
+
+}
+.sect-main1{
+  font-size:25px;
+ font-weight:bold;
+ color:aliceblue;
+}
+.subtxt{
+    font-size:20px;
+    font-weight:300;
+    text-align: center;
+}
+.subtxt1{
+    font-size:20px;
+    font-weight:300;
+    text-align:justify;
+    color:aliceblue;
+}
+.mybutton3{
+    width:80%;
+    height:40px;
+    background-color: aliceblue;
+    color:black;
+    border-style:none;
+    margin:0 auto;
+}
+.mybtn1{
+  height:70px;
+  width:150px;
+  color:aliceblue;
+  background-color: blue;
+  border-style:none;
+  margin-right:10px;
+}
+.mybtnx{
+  height:60px;
+  width:150px;
+  color:rgb(38, 42, 248);
+  background-color:inherit;
+  border:1px solid blue;
+  border-radius:20px;
+}
+.mybtn2{
+  height:70px;
+  width:150px;
+  color:rgb(17, 17, 17);
+  background-color:aliceblue;
+  border-style:none;
+  
+}
+.btn-gap{
+  margin-top:50px;
+}
+.row-center{
+  margin-top:10%;
+}
+.row-top{
+  margin-top:15%;
+  
+}
+.item{
+  border-radius:10px;
+  object-fit: contain;
+  
+}
+#second{
+  margin-top:50px;
+  height:100vh;
+  width:auto;
+  background-color: rgb(1, 1, 34);
+}
+.col-sm-12{
+  width:auto;
+  margin:0 auto;
+  text-align:center;
+}
+#third{
+  margin-top:50px;
+  height:max-content;
+  width:auto;
+  background-color: white;
+}
+.box{
+  border:1px solid blue;
+  margin:0 auto;
+  border-radius: 15px;
+  height:180px;
+  margin-bottom:15px;
+box-shadow: 0px 4px 8px 0px rgba(35, 3, 182, 0.2);
+}
+.gap{
+  padding-top:30px;
+  font-size:20px;
+  font-weight:bold;
+}
+.subtxtx{
+  font-size:15px;
+  color:rgb(78, 79, 80);
+}
+.move{
+  margin-bottom: 10px;
+}
+.col-dwn{
+  background-color: blue;
+}
+.col-up{
+  background-color: rgb(244, 244, 252);
+}
+.big-txt{
+font-size:60px;
+color:aliceblue;
+text-align:center;
+padding-top:100px;
+font-weight:bold;
+}
+.rw-ctrl{
+  margin-top:50px;
+
+}
+@media (max-width:767px){
+  .rw-ctrl{
+    display:flex;
+  flex-direction: column-reverse;
+  }
+}
+.rw-chk{
+  height:55vh;
+  padding:20px;
+  padding-top:60px;
+
+}
+.chk{
+  padding-bottom:80px;
+}
+a{
+  text-decoration: none;
+  color:initial;
+}
+#fifth{
+  margin-top:100px;
+  height:auto;
+  width:auto;
+
+}
+.open{
+  height:100vh;
+}
+.blog-cont{
+  width:95%;
+  height:95%;
+  border-radius:20px;
+  border:1px solid blue;
+  box-shadow: 0px 4px 8px 0px rgba(35, 3, 182, 0.2);
+}
+.blog-prwviw{
+  margin-top:20px;
+  
+}
+.blog-name{
+  padding-left:10px;
+  font-weight:bold;
+  padding-top:5px;
+}
+.blog-id{
+  margin-top:100px;
+}
+.blog-pic{
+  height:60px;
+  width:60px;
+  border-radius:50%;
+  object-fit:cover;
+}
+.a-btn{
+  height:40px;
+  width:120px;
+  color:azure;
+  background-color: rgb(221, 216, 216);
+  float:right;
+  border-style:none;
+}
+.blog-item{
+  float:left;
+}
+#img-x1{
+  background-image: url("file:///C:/Users/ademola/Desktop/MASTERIMAGE/ppl4.jpg");
+  object-fit: cover;
+  height:50%;
+  border-top-left-radius:20px;
+  border-top-right-radius:20px;
+}
+
+#img-x{
+  background-image: url("file:///C:/Users/ademola/Desktop/MASTERIMAGE/corinne-kutz-xx.jpg");
+  object-fit: cover;
+  height:50%;
+  border-top-left-radius:20px;
+  border-top-right-radius:20px;
+}
+@media(max-width:767px){
+  #second{
+    height:150vh;
+  }
+}
+
+#fourth{
+  background-color: rgb(1, 1, 41);
+  width:auto;
+  height:auto;
+  margin-top:50px;
+}
+
+#sixth{
+  height:max-content;
+  width:auto;
+  margin-top:50px;
+}
+
+
+.testimonial-prwviw{
+  justify-content: center;
+  margin-bottom:350px;
+  border:1px solid blue;
+    border-radius:20px;
+    height:max-content;
+
+    -webkit-box-shadow: inset 0px 0px 17px 0px rgba(0,0,0,0.3);
+-moz-box-shadow: inset 0px 0px 17px 0px rgba(0,0,0,0.3);
+box-shadow: inset 0px 0px 17px 0px rgba(0,0,0,0.3);
+    
+}
+.testimonial-pic{
+  height:80px;
+  width:80px;
+  border-radius:50%;
+  padding-top:15px;
+}
+.testifier-name{
+    text-align:center;
+    font-weight:bold;
+}
+.testimony{
+  color:rgb(59, 59, 59);
+  font-size:12px;
+  text-align:justify;
+}
+.position{
+    color:blue;
+    font-size:12px;
+}
+
+button {
+  border: none;
+  background: none;
+}
+
+a,
+a:hover {
+  color: inherit;
+}
+
+figure {
+  margin: 0;
+}
+
+
+/* MAIN STYLES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.container {
+  max-width: 1100px;
+}
+
+.section-with-carousel .swiper-slide figure {
+  position: relative;
+  overflow: hidden;
+}
+
+.section-with-carousel .swiper-slide img {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+}
+
+.section-with-carousel .carousel-controls {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: space-between;
+  padding: 0 12px;
+  z-index: 1;
+}
+
+.section-with-carousel .carousel-controls .carousel-control {
+  opacity: 0.25;
+  transition: opacity 0.3s;
+}
+
+
+.section-with-carousel .carousel-controls .carousel-control:hover {
+  opacity: 1;
+}
+
+@media (min-width: 768px) {
+  
+}
+
+@media (min-width: 1200px) {
+ 
+
+  .section-with-carousel .carousel-controls {
+    padding: 0 50px;
+  }
+}
+.axle{
+  margin-top:-250px;
+}
+
+
+
+.main-bowl{
+  width:auto;
+  height:auto;
+  margin:0 auto;
+  border:1px solid blue;
+ 
+ position:relative;
+  border-radius:20px;
+  background-color: white;
+}
+.color{
+  height:40vh;
+  width:auto;
+  background-color:blue;
+  margin-top:-20vh; 
+  z-index: 0;
+}
+.final{
+  height:auto;
+  width:auto;
+  background-color:rgb(1, 1, 31);
+}
+.final-cont{
+  padding-bottom:70px;
+}
+.contact-item{
+  font-size:20px;
+  font-weight:bold;
+}
+.contact-msg{
+  font-size:15px;
+
+}
+.contact-row{
+ padding-bottom:10px;
+  padding-top:20px;
+  margin-top:15px;
+  margin-bottom:15px;
+}
+hr{
+  color:aliceblue;
+}
+.fa{
+  color:aliceblue;
+  margin-right:10px;
+}
+.copy{
+  font-size:12px;
+  color:rgb(130, 133, 133);
+
+}
+.ab-x{
+  border-right:1px solid blue;
+}
+@media(max-width:767px){
+  .ab-x{
+    border-right:none;
+    border-bottom:1px solid blue;
+    padding-bottom:15px;
+  }
+  .main-bowl{
+    margin:0 auto;
+    width:420px;
+  }
+  .contact-msg{
+    text-align: justify;
+  }
+}
+.logo{
+  font-weight:bold;
+  font-size:40px;
+  color:white;
+}
+.final-row{
+  padding-top:40px;
+
+}
+.final-heads{
+  color:white;
+  font-size:20px;
+  font-weight:bold;
+ 
+}
+
+li{
+  text-decoration: none;
+  color:white;
+  list-style-type: none;
+  font-size:15px;
+}
+
+.list{
+  padding-top:48px;
+}
+
+.input-x{
+  width:98%;
+  height:60px;
+  border-radius:10px;
+  margin-bottom:15px;
+}
+.card-carousel {
+  --card-width: 80%;
+  --card-max-width: 280px;
+  --card-height: 350px;
+  --carousel-min-width: 600px;
+  z-index: 1;
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  height: var(--card-height);
+  min-width: var(--carousel-min-width);
+  transition: filter .3s ease;
+  background-color: white;
+}
+
+@media screen and (max-width: 640px) {
+  .card-carousel {
+    margin-left: calc((100vw - var(--carousel-min-width) - 40px) / 2)
+  }
+}
+
+.card-carousel.smooth-return {
+  transition: all .2s ease;
+}
+
+.card-carousel .card {
+  background: whitesmoke;
+  width: var(--card-width);
+  max-width: var(--card-max-width);
+  text-align: center;
+  padding: 1em;
+  min-width: 250px;
+  height: var(--card-height);
+  position: absolute;
+  margin: 0 auto;
+  color: rgba(0,0,0,.5);
+  transition: inherit;
+  -webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.3);
+  -moz-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.3);
+  box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.3);
+  border-radius: 1em;
+  filter: brightness(.9);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card.highlight {
+  filter: brightness(1)
+}
+
+
+.card:nth-of-type(1) .image-container {
+    background-image: url("https://static.addtoany.com/images/dracaena-cinnabari.jpg");
+}
+ 
+.card:nth-of-type(2) .image-container {
+  background-image: url("https://www.w3schools.com/w3css/img_lights.jpg")
+}
+
+.card:nth-of-type(3) .image-container {
+  background-image: url("https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500")
+}
+.card:nth-of-type(4) .image-container {
+  background-image: url("https://images.pexels.com/photos/67636/rose-blue-flower-rose-blooms-67636.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500")
+}
+.card:nth-of-type(5) .image-container {
+  background-image: url("https://helpx.adobe.com/content/dam/help/en/stock/how-to/visual-reverse-image-search/jcr_content/main-pars/image/visual-reverse-image-search-v2_intro.jpg")
+}
+
+
+
+.image-container {
+  width: 8em;
+  height: 8em;
+  position: relative;
+  background-size: cover;
+  margin-bottom: 2em;
+  border-radius: 100%;
+  padding: 1em;
+  -webkit-box-shadow: inset 0px 0px 17px 0px rgba(0,0,0,0.3);
+-moz-box-shadow: inset 0px 0px 17px 0px rgba(0,0,0,0.3);
+box-shadow: inset 0px 0px 17px 0px rgba(0,0,0,0.3);
+  
+}
+
+.image-container::after {
+  content: "";
+  display: block;
+  width: 120%;
+  height: 120%;
+  border: solid 3px rgba(0,0,0,.1);
+  border-radius: 100%;
+  position: absolute;
+  top: calc(-10% - 3px);
+  left: calc(-10% - 3px);
+}
+
+h2 {
+  padding: 1em;
+  margin-top: 1em;
+  background: rgba(0,0,0,.3);
+  text-align: center;
+  color: white;
+  border-radius: .2em;
+  display: inline-block;
+  transform: translateX(calc((100vw - 100%) / 2))
+}
+
+h2 a {
+  color: #f5b916
+}
+
+.mybtn{
+  width:60%;
+  margin:0 auto;
+  height:30px;
+  border-style:none;
+  color:white;
+  background-color: blue;
+  border-radius:20px;
+  font-size:15px;
+}
+
+
+.top{
+  
+  height:max-content;
+}
+
+
+
+.offx{
+ 
+  background-color:blue;
+  border:1px solid white;
+}
+.offy{
+  color:white;
+}
+
+
+.topnav {
+  background-color: white;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: #0f0135;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: rgb(11, 2, 90);
+  color: white;
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+  background-color: #02013d;
+  color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+.btnx{
+  display:none;
+}
+}
+
+.btnx{
+  width:120px;
+  height:40px;
+  color:white;
+  background-color: #02013d;
+  float:right;
+  border-style:none;
+  margin-top:8px;
+  margin-right:5px;
+}
+
+.svg-icon {
+  width: 3em;
+  height: 3em;
+}
+
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+  fill: #4691f6;
+}
+
+.svg-icon circle {
+  stroke: #4691f6;
+  stroke-width: 1;
+}
+.newBlue{
+  background-color:#02013d;
+  color:white;
+}
