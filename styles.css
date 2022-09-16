@@ -257,7 +257,7 @@ a{
   float:left;
 }
 #img-x1{
-  background-image: url("file:///C:/Users/ademola/Desktop/MASTERIMAGE/ppl4.jpg");
+  background-image: url("https://user-images.githubusercontent.com/106655720/190657092-2ac12b3f-5f9e-4e39-8c15-faac279f6620.jpg");
   object-fit: cover;
   height:50%;
   border-top-left-radius:20px;
@@ -265,7 +265,7 @@ a{
 }
 
 #img-x{
-  background-image: url("file:///C:/Users/ademola/Desktop/MASTERIMAGE/corinne-kutz-xx.jpg");
+  background-image: url("https://user-images.githubusercontent.com/106655720/190657127-9ad244c6-cffc-4475-94c1-16a478a324dc.jpg");
   object-fit: cover;
   height:50%;
   border-top-left-radius:20px;
