@@ -1,0 +1,926 @@
+html{
+    scroll-behavior: smooth;
+    transition: ease;
+  }
+body {
+font-family: "Playfair Display", Helvetica, sans-serif;
+overflow-x:hidden;
+}
+
+
+.panels{
+
+position:relative;
+height:75vh;
+min-height:50vh;
+width:100%;
+z-index:1000;
+
+}
+#a{
+background: rgb(9, 1, 126) url("https://user-images.githubusercontent.com/106655720/191206288-dd9afb12-7895-4695-8de7-433185199251.jpg");
+background-size: cover;
+overflow: hidden;
+position:fixed;
+top:0;
+left:0;
+z-index:-99;
+background-blend-mode:darken;
+
+
+}
+#b{
+margin-top:75vh;
+background:white;
+height:max-content;
+
+}
+.txt{
+color:rgb(239, 239, 248);
+font-size: 20px;;
+}
+
+.main-txt{
+color:white;
+}
+
+
+
+.mybutton{
+height:50px;
+width:150px;
+background-color: blue;
+color:white;
+border-radius: 10px;
+border-style:none;
+margin-right:10px;
+margin-left:0;
+}
+.mybutton2{
+height:80px;
+width:250px;
+border-radius:35px;
+background-color:rgb(7, 1, 34);
+color:white;
+font-size:20px;
+border-style:none;
+box-shadow: 0px 4px 8px 0px rgba(6, 1, 51, 0.2);
+}
+#main-x{
+text-align: left;
+margin:0 auto;
+
+font-size:40px;
+font-weight:bold;
+
+}
+
+
+.sect-title{
+font-size:25px;
+color:rgb(191, 191, 240);
+padding-top:40px;
+}
+.sect-main{
+font-size:25px;
+font-weight:bold;
+
+}
+.sect-main1{
+font-size:25px;
+font-weight:bold;
+color:aliceblue;
+}
+.subtxt{
+font-size:20px;
+font-weight:300;
+text-align: center;
+}
+.subtxt1{
+font-size:20px;
+font-weight:300;
+text-align:justify;
+color:aliceblue;
+}
+.mybutton3{
+width:80%;
+height:40px;
+background-color: aliceblue;
+color:black;
+border-style:none;
+margin:0 auto;
+}
+.mybtn1{
+height:70px;
+width:150px;
+color:aliceblue;
+background-color: blue;
+border-style:none;
+margin-right:10px;
+}
+.mybtnx{
+height:60px;
+width:150px;
+color:rgb(38, 42, 248);
+background-color:inherit;
+border:1px solid blue;
+border-radius:20px;
+}
+.mybtn2{
+height:70px;
+width:150px;
+color:rgb(17, 17, 17);
+background-color:aliceblue;
+border-style:none;
+
+}
+.btn-gap{
+margin-top:50px;
+}
+.row-center{
+margin-top:10%;
+}
+.row-top{
+margin-top:15%;
+
+}
+.item{
+border-radius:10px;
+object-fit: contain;
+
+}
+#second{
+margin-top:50px;
+height:100vh;
+width:auto;
+background-color: rgb(1, 1, 34);
+}
+.col-sm-12{
+width:auto;
+margin:0 auto;
+text-align:center;
+}
+#third{
+margin-top:50px;
+height:max-content;
+width:auto;
+background-color: white;
+}
+.box{
+
+margin:0 auto;
+border-radius: 15px;
+height:180px;
+margin-bottom:15px;
+box-shadow: 0px 4px 8px 0px rgba(35, 3, 182, 0.2);
+}
+.gap{
+padding-top:30px;
+font-size:20px;
+font-weight:bold;
+}
+.subtxtx{
+font-size:15px;
+color:rgb(78, 79, 80);
+}
+.move{
+margin-bottom: 10px;
+}
+.col-dwn{
+background-color: blue;
+}
+.col-up{
+background-color: rgb(244, 244, 252);
+}
+.big-txt{
+font-size:60px;
+color:aliceblue;
+text-align:center;
+padding-top:100px;
+font-weight:bold;
+}
+.rw-ctrl{
+margin-top:50px;
+
+}
+@media (max-width:767px){
+.rw-ctrl{
+display:flex;
+flex-direction: column-reverse;
+}
+}
+.rw-chk{
+height:55vh;
+padding:20px;
+padding-top:60px;
+width:95%;
+}
+.chk{
+padding-bottom:80px;
+}
+a{
+text-decoration: none;
+color:initial;
+}
+#fifth{
+margin-top:100px;
+height:auto;
+width:auto;
+
+}
+.open{
+height:100vh;
+}
+.blog-cont{
+width:auto;
+height:95%;
+border-radius:20px;
+
+box-shadow: 0px 4px 8px 0px rgba(35, 3, 182, 0.2);
+}
+.blog-prwviw{
+margin-top:20px;
+
+}
+.blog-name{
+padding-left:10px;
+font-weight:bold;
+padding-top:5px;
+}
+.blog-id{
+margin-top:100px;
+}
+.blog-pic{
+height:60px;
+width:60px;
+border-radius:50%;
+object-fit:cover;
+}
+.a-btn{
+height:40px;
+width:120px;
+color:azure;
+background-color: rgb(221, 216, 216);
+float:right;
+border-style:none;
+}
+.blog-item{
+float:left;
+}
+#img-x1{
+background-image: url("https://user-images.githubusercontent.com/106655720/190657092-2ac12b3f-5f9e-4e39-8c15-faac279f6620.jpg");
+object-fit: cover;
+height:50%;
+border-top-left-radius:20px;
+border-top-right-radius:20px;
+}
+
+#img-x{
+background-image: url("https://user-images.githubusercontent.com/106655720/190657127-9ad244c6-cffc-4475-94c1-16a478a324dc.jpg");
+object-fit: cover;
+height:50%;
+border-top-left-radius:20px;
+border-top-right-radius:20px;
+}
+@media(max-width:767px){
+#second{
+height:150vh;
+}
+}
+
+#fourth{
+background-color: rgb(1, 1, 41);
+width:auto;
+height:auto;
+margin-top:50px;
+}
+
+#sixth{
+height:max-content;
+width:auto;
+margin-top:50px;
+}
+
+
+.testimonial-prwviw{
+justify-content: center;
+margin-bottom:350px;
+
+border-radius:20px;
+height:max-content;
+
+-webkit-box-shadow: inset 0px 0px 17px 0px rgba(0,0,0,0.3);
+-moz-box-shadow: inset 0px 0px 17px 0px rgba(0,0,0,0.3);
+box-shadow: inset 0px 0px 17px 0px rgba(0,0,0,0.3);
+
+}
+.testimonial-pic{
+height:80px;
+width:80px;
+border-radius:50%;
+padding-top:15px;
+}
+.testifier-name{
+text-align:center;
+font-weight:bold;
+}
+.testimony{
+color:rgb(59, 59, 59);
+font-size:12px;
+text-align:justify;
+}
+.position{
+color:blue;
+font-size:12px;
+}
+
+button {
+border: none;
+background: none;
+}
+
+a,
+a:hover {
+color: inherit;
+}
+
+figure {
+margin: 0;
+}
+
+
+/* MAIN STYLES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.container {
+max-width: 1100px;
+}
+
+.section-with-carousel .swiper-slide figure {
+position: relative;
+overflow: hidden;
+}
+
+.section-with-carousel .swiper-slide img {
+width: 100%;
+height: 320px;
+object-fit: cover;
+}
+
+.section-with-carousel .carousel-controls {
+position: absolute;
+top: 50%;
+left: 0;
+right: 0;
+transform: translateY(-50%);
+display: flex;
+justify-content: space-between;
+padding: 0 12px;
+z-index: 1;
+}
+
+.section-with-carousel .carousel-controls .carousel-control {
+opacity: 0.25;
+transition: opacity 0.3s;
+}
+
+
+.section-with-carousel .carousel-controls .carousel-control:hover {
+opacity: 1;
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 1200px) {
+
+
+.section-with-carousel .carousel-controls {
+padding: 0 50px;
+}
+}
+.axle{
+margin-top:-250px;
+}
+
+
+
+.main-bowl{
+width:auto;
+height:auto;
+margin:0 auto;
+box-shadow: 0px 4px 8px 0px rgba(6, 1, 51, 0.2);
+
+position:relative;
+border-radius:20px;
+background-color: white;
+}
+.color{
+height:40vh;
+width:auto;
+background-color:blue;
+margin-top:-20vh; 
+z-index: 0;
+}
+.final{
+height:auto;
+width:auto;
+background-color:rgb(1, 1, 31);
+}
+.final-cont{
+padding-bottom:70px;
+}
+.contact-item{
+font-size:20px;
+font-weight:bold;
+}
+.contact-msg{
+font-size:15px;
+
+}
+.contact-row{
+padding-bottom:10px;
+padding-top:20px;
+margin-top:15px;
+margin-bottom:15px;
+}
+hr{
+color:aliceblue;
+}
+.fa{
+color:aliceblue;
+margin-right:10px;
+}
+.copy{
+font-size:12px;
+color:rgb(130, 133, 133);
+
+}
+.ab-x{
+border-right:1px solid rgb(1, 1, 46);
+}
+@media(max-width:767px){
+.ab-x{
+border-right:none;
+border-bottom:1px solid rgb(0, 0, 43);
+padding-bottom:15px;
+}
+.main-bowl{
+margin:0 auto;
+width:420px;
+}
+.contact-msg{
+text-align: justify;
+}
+}
+.logo{
+font-weight:bold;
+font-size:40px;
+color:white;
+}
+.final-row{
+padding-top:40px;
+
+}
+.final-heads{
+color:white;
+font-size:20px;
+font-weight:bold;
+
+}
+
+li{
+text-decoration: none;
+color:white;
+list-style-type: none;
+font-size:15px;
+}
+
+.list{
+padding-top:48px;
+}
+
+.input-x{
+width:98%;
+height:60px;
+border-radius:10px;
+margin-bottom:15px;
+}
+
+
+.mybtn{
+width:60%;
+margin:0 auto;
+height:30px;
+border-style:none;
+color:white;
+background-color: blue;
+border-radius:20px;
+font-size:15px;
+}
+
+
+.top{
+
+height:max-content;
+}
+
+
+
+.offx{
+
+background-color:blue;
+border:1px solid white;
+}
+.offy{
+color:white;
+}
+
+
+
+.overlay {
+/* Height & width depends on how you want to reveal the overlay (see JS below) */   
+height: 100%;
+width: 0;
+position: fixed; /* Stay in place */
+z-index: 1; /* Sit on top */
+left: 0;
+top: 0;
+background-color: rgb(53, 49, 49); /* Black fallback color */
+background-color: rgba(0,0,0, 0.9); /* Black w/opacity */
+overflow-x: hidden; /* Disable horizontal scroll */
+transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+}
+
+/* Position the content inside the overlay */
+.overlay-content {
+position: relative;
+top: 25%; /* 25% from the top */
+width: 100%; /* 100% width */
+text-align: center; /* Centered text/links */
+margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+}
+
+/* The navigation links inside the overlay */
+.overlay a {
+padding: 8px;
+text-decoration: none;
+font-size: 36px;
+color: #818181;
+display: block; /* Display block instead of inline */
+transition: 0.3s; /* Transition effects on hover (color) */
+}
+
+/* When you mouse over the navigation links, change their color */
+.overlay a:hover, .overlay a:focus {
+color: #f1f1f1;
+}
+
+/* Position the close button (top right corner) */
+.overlay .closebtn {
+position: absolute;
+top: 20px;
+right: 45px;
+font-size: 60px;
+}
+
+/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+@media screen and (max-height: 450px) {
+.overlay a {font-size: 20px}
+.overlay .closebtn {
+font-size: 40px;
+top: 15px;
+right: 35px;
+}
+} 
+.logo{
+color:rgb(213, 213, 252);
+font-size:30px;
+font-weight:700;
+
+}
+.nav-control{
+display:none;
+float:right;
+margin-top:-80px;
+}
+.na-vy{
+height:100px;
+padding-top:20px;
+padding-bottom:20px;
+
+}
+.nav-cont a{
+float:right;
+}
+.link{
+margin-right:20px;
+color:rgb(220, 220, 253);
+text-decoration: none;
+margin-top:30px;
+}
+.primary{
+float:right;
+background-color:rgb(0, 0, 18);
+color:white;
+border-style:none;
+border-radius:20px;
+height:40px;
+width:120px;
+margin-top:20px;
+box-shadow: 0px 4px 8px 0px rgba(6, 1, 51, 0.2);
+}
+.pry-1{
+background-color:rgb(0, 0, 18);
+color:white;
+border-style:none;
+border-radius:20px;
+height:40px;
+width:120px; 
+box-shadow: 0px 4px 8px 0px rgba(6, 1, 51, 0.2); 
+}
+
+@media (max-width:767px){
+.nav-cont{
+display:none;
+}
+.vert-btn{
+
+font-size:50px;
+
+}
+.nav-control{
+display:block;
+}
+.mybutton2{
+display:none;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+.btnx{
+width:120px;
+height:40px;
+color:white;
+background-color: #02013d;
+float:right;
+border-style:none;
+margin-top:8px;
+margin-right:5px;
+}
+
+.svg-icon {
+width: 3em;
+height: 3em;
+}
+
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+fill: #010e1f;
+}
+
+.svg-icon circle {
+stroke: #010e1f;
+stroke-width: 1;
+}
+.newBlue{
+background-color:#02013d;
+color:white;
+}
+.form-btn{
+width:100%;
+height:40px;
+background-color:rgb(0, 0, 27);
+color:white;
+
+border-style:none;
+font-size:20px;
+margin-top:20px;
+box-shadow: 0px 4px 8px 0px rgba(6, 1, 51, 0.2); 
+}
+.labeltxt{
+font-size:12px;
+color:grey;
+}
+.a-link{
+color:rgb(124, 124, 252);
+}
+.gy-pc{
+margin-top:60px;
+
+}
+@media(max-width:767px){
+.main-txt{
+font-size:30px;
+}
+.txt{
+font-size:15px;
+}
+.sect-title{
+font-size:15px;
+text-align:left;
+}
+.sect-main{
+text-align:left;
+font-size:20px;
+}
+.left{
+text-align:left;
+font-size:15px;
+}
+.gy-pc{
+margin-top:30px;
+}
+}
+
+.js-scroll {
+opacity: 0;
+transition: opacity 500ms;
+}
+
+.js-scroll.scrolled {
+opacity: 1;
+}
+
+.scrolled.fade-in {
+animation: fade-in 1s ease-in-out both;
+}
+
+.scrolled.fade-in-bottom {
+animation: fade-in-bottom 1s ease-in-out both;
+}
+
+.scrolled.slide-left {
+animation: slide-in-left 1s ease-in-out both;
+}
+
+.scrolled.slide-right {
+animation: slide-in-right 1s ease-in-out both;
+}
+
+/* ----------------------------------------------
+* Generated by Animista on 2021-2-11 23:32:31
+* Licensed under FreeBSD License.
+* See http://animista.net/license for more info. 
+* w: http://animista.net, t: @cssanimista
+* ---------------------------------------------- */
+
+@keyframes slide-in-left {
+0% {
+-webkit-transform: translateX(-100px);
+transform: translateX(-100px);
+opacity: 0;
+}
+100% {
+-webkit-transform: translateX(0);
+transform: translateX(0);
+opacity: 1;
+}
+}
+
+@keyframes slide-in-right {
+0% {
+-webkit-transform: translateX(100px);
+transform: translateX(100px);
+opacity: 0;
+}
+100% {
+-webkit-transform: translateX(0);
+transform: translateX(0);
+opacity: 1;
+}
+}
+
+@keyframes fade-in-bottom {
+0% {
+-webkit-transform: translateY(50px);
+transform: translateY(50px);
+opacity: 0;
+}
+100% {
+-webkit-transform: translateY(0);
+transform: translateY(0);
+opacity: 1;
+}
+}
+
+@keyframes fade-in {
+0% {
+opacity: 0;
+}
+100% {
+opacity: 1;
+}
+}
+.new-col{
+justify-self:auto;
+text-align:justify;
+box-shadow: 0px 4px 8px 0px rgba(6, 1, 51, 0.2); 
+height:40vh;
+width:100%;
+margin-bottom:10px;
+padding:30px;
+padding-top:60px;
+}
+.new-col-txt{
+font-size:25px;
+font-weight:bold;
+
+}
+
+.case1:hover{
+background: rgb(100, 99, 99) url("https://user-images.githubusercontent.com/106655720/191206288-dd9afb12-7895-4695-8de7-433185199251.jpg");
+background-size: cover;
+background-blend-mode:darken;
+color:white;
+
+}
+.case2:hover{
+background: rgb(100, 99, 99) url("https://user-images.githubusercontent.com/106655720/191308684-850d9871-29c5-4030-b12c-d077a865a927.jpg");
+background-size: cover;
+background-blend-mode:darken;
+color:white;
+}
+.case3:hover{
+background: rgb(100, 99, 99) url("https://user-images.githubusercontent.com/106655720/191308682-67bb2fe8-0e4b-42fc-85c6-681f8d392642.jpg");
+background-size: cover;
+background-blend-mode:darken;
+color:white;
+}
+.case4:hover{
+background:rgb(100, 99, 99)url("https://user-images.githubusercontent.com/106655720/191308664-6bd90049-18ab-4323-9b52-1b56f797c057.jpg");
+background-size: cover;
+background-blend-mode:darken;
+color:white;
+}
+.edit{
+-webkit-transition: all 0.5s linear; -moz-transition: all 0.5s linear; -o-transition: all 0.5s linear; transition: all 0.5s linear;
+
+-webkit-transform: rotate3d(0,0,0,0deg); -moz-transform: rotate3d(0,0,0,0deg); -o-transform: rotate3d(0,0,0,0deg); transform: rotate3d(0,0,0,0deg);
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+background-color: #eee;
+color: #444;
+cursor: pointer;
+padding: 18px;
+width: 100%;
+text-align: left;
+border: none;
+outline: none;
+transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+background-color: #ccc;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+padding: 0 18px;
+background-color: white;
+display: none;
+overflow: hidden;
+}
+
+
+.accordion:after {
+content: '\02795'; /* Unicode character for "plus" sign (+) */
+font-size: 13px;
+color: #777;
+float: right;
+margin-left: 5px;
+}
+
+.active:after {
+content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+
+
+
+
+#accordn{
+display:none;
+box-shadow: 0px 4px 8px 0px rgba(6, 1, 51, 0.2); 
+}
+@media(max-width:767px){
+.agile{
+display:none;
+}
+#accordn{
+display:block;
+}
+}
