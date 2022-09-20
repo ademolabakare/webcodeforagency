@@ -1,6 +1,7 @@
 <html>
   <head>
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1, user-scalable=0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Old Standard TT">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
@@ -13,28 +14,66 @@
     </head>
     <body>
 
-      <div class="topnav fixed-top" id="myTopnav">
-        <a href="#home" class="active">CODE</a>
-        <a href="#news">News</a>
-        <a href="#contact">Contact</a>
-        <a href="#about">About</a>
-        <a href="#">Projects</a>
-        <a href="#">Services</a>
-        
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-          <i class="fa fa-bars"></i>
-        </a>
-        <button class="btnx" type="submit">Contact us</button>
+      <div id="myNav" class="overlay">
+
+        <!-- Button to close the overlay navigation -->
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      
+        <!-- Overlay content -->
+        <div class="overlay-content">
+          <a href="#">About</a>
+          <a href="#">Services</a>
+          <a href="#">Clients</a>
+          <a href="#">Contact</a>
+        </div>
+    <!-- Use any element to open/show the overlay navigation menu -->
+    
+    
       </div>
 
-        <div >
-            <div id="a" class="panels ">
-                <div id="main-x">
-                <p class="main-txt"><span class="txt">Development Agency</span class="major-txt"><br>A Top-Notch Software Development Agency</p>
-               <button class="mybutton2 blue" type="submit">Contact Us</button>
-                </div>
-            </div>
+        
+      <div id="a" class="panels ">
+
+        <div class="nav-cont container " >
+
+
+
+
+          <button type="submit" class="primary">Contact us</button>
+                <a href="#news" class="link">News</a>
+              <a href="#contact"  class="link">Contact</a>
+              <a href="#about"  class="link">About</a>
+              <a href="#"  class="link">Projects</a>
+              <a href="#"  class="link">Services</a>
+              
+                
+               </div>
+               <div class="container na-vy">
+               <p class="logo">eDesignX </p> 
+               <div class="nav-control ">
+                  <button type="submit" class="pry-1 ">Contact us</button><span onclick="openNav()" class="vert-btn"> <i class="fa fa-bars" style="font-size:26px;color:rgb(212, 212, 250)"></i></span>
+              </div>
+              </div>
+
+
+
+
+
+          <div id="main-x" class="container">
+            <div class="row">
+              <div class="col-md-7">
+          <p class="main-txt"><span class="txt">Development Agency</span><br>A Top-Notch Software Development <br>Agency</p>
+         <button class="mybutton2 blue" type="submit">Contact Us</button>
         </div>
+        <div class="col-md-5">
+          <input class="form-control" type="email" placeholder="Enter Email">
+          <button class="form-btn" type="submit" id="myform-btn">Subscribe</button>
+          <label for="myform-btn"><p class=labeltxt>Subscribe to our Monthly Newsletter, Your Information won't be shared. Check <a href="#" class="a-link">Privacy</a> for more Information</a></p></label>
+        </div>
+          </div>
+        </div>
+      </div>
+        
 <main id="b">
 
     <section id="services" class="container">
@@ -451,7 +490,7 @@
                 <button class="mybtn1 white" type="submit">Drop Request</button>
                
               </div>
-              <div class="col-md-5">
+              <div class="col-md-5 gy-pc">
                 <div class="row">
                   <div class="col-6">
                 <ul>
@@ -476,7 +515,7 @@
               </div>
               </div>
               </div>
-              <div class="col-md-3">
+              <div class="col-md-3 gy-pc">
                 <ul>
                   <p class="final-heads">Utility</p>
                   <li>Styleguide</li>
